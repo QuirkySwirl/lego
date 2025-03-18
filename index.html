@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <title>LEGO Resources Hub</title>
+  <meta content="A comprehensive collection of LEGO resources, including building guides, parts catalogs, MOC inspiration, and LEGO communities." name="description"/>
+  <meta content="lego, building, bricks, MOC, parts, minifigures, sets" name="keywords"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+  <link href="style.css" rel="stylesheet"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="app-container">
+    <header class="header">
+      <div class="header-content">
+        <a href="#" class="logo">
+          <div class="logo-brick">
+            <div class="stud"></div>
+            <div class="stud"></div>
+            <div class="stud"></div>
+            <div class="stud"></div>
+          </div>
+          <span>LEGO</span>Resources
+        </a>
+        <div class="search-container">
+          <div class="search-input-wrapper">
+            <i class="fas fa-search search-icon"></i>
+            <input type="text" id="search-input" placeholder="Search resources...">
+          </div>
+        </div>
+        <div class="header-actions">
+          <button id="color-theme-toggle" class="theme-toggle">
+            <i class="fas fa-palette"></i>
+          </button>
+          <button id="dark-mode-toggle" class="theme-toggle">
+            <i class="fas fa-moon"></i>
+          </button>
+          <button id="menu-toggle" class="menu-toggle">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <div class="main-container">
+      <aside class="sidebar" id="sidebar">
+        <div class="sidebar-content">
+          <h3 class="sidebar-title">Categories</h3>
+          <div class="categories-list" id="categories-list">
+            <!-- Categories will be populated here by JavaScript -->
+          </div>
+        </div>
+      </aside>
+
+      <main class="main-content">
+        <div class="hero-section">
+          <div class="hero-bricks">
+            <div class="hero-brick red"></div>
+            <div class="hero-brick blue"></div>
+            <div class="hero-brick yellow"></div>
+            <div class="hero-brick green"></div>
+          </div>
+          <h1 class="main-title">LEGO Resources Hub</h1>
+          <p class="main-description">
+            A curated collection of the best <span class="highlight">LEGO</span> resources 
+            for builders, collectors, and enthusiasts of all ages.
+          </p>
+        </div>
+
+        <div class="resources-container" id="resources-container">
+          <!-- Resources will be populated here by JavaScript -->
+        </div>
+      </main>
+    </div>
+
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-bricks">
+          <div class="footer-brick red"></div>
+          <div class="footer-brick blue"></div>
+          <div class="footer-brick yellow"></div>
+          <div class="footer-brick green"></div>
+        </div>
+        <p>LEGO® is a trademark of the LEGO Group, which does not sponsor, authorize or endorse this site.</p>
+        <p>Built with ❤️ for LEGO enthusiasts everywhere</p>
+      </div>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
